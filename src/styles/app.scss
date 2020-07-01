@@ -1,0 +1,385 @@
+.react-paginate ul {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.react-paginate li {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/** @define utilities */
+
+.util-flexRow {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.util-flexColumn {
+  align-content: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.util-marginTop {
+  margin-top: 10px;
+}
+
+.util-marginTopLg {
+  margin-top: 25px;
+}
+
+.util-marginTopSm {
+  margin-top: 5px;
+}
+
+.util-marginBottom {
+  margin-bottom: 10px;
+}
+
+.util-marginBottomSm {
+  margin-bottom: 5px;
+}
+
+.util-marginLeft {
+  margin-left: 10px;
+}
+
+.util-marginLeftSm {
+  margin-left: 5px;
+}
+
+.util-marginLeftLg {
+  margin-left: 25px;
+}
+
+.util-marginRight {
+  margin-right: 10px;
+}
+
+.util-marginRightLg {
+  margin-right: 25px;
+}
+
+.util-marginAuto {
+  margin: auto;
+}
+
+.util-paddingSm {
+  padding: 5px;
+}
+
+.util-paddingMd {
+  padding: 10px;
+}
+
+.util-paddingLg {
+  padding: 25px;
+}
+
+.util-paddingXl {
+  padding: 30px;
+}
+
+.util-marginSm {
+  margin: 5px;
+}
+
+.util-marginMd {
+  margin: 10px;
+}
+
+.util-marginLg {
+  margin: 25px;
+}
+
+.util-marginXl {
+  margin: 30px;
+}
+
+.util-flexGrow {
+  flex: 1;
+}
+
+.util-flexCenter {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.util-flexCenterContent {
+  align-content: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.util-flexEndContent {
+  align-content: flex-end;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.util-flexCenterItems {
+  align-items: center;
+}
+.util-error {
+  color: red;
+}
+
+.util-alignRight {
+  text-align: right;
+}
+
+.util-alignLeft {
+  text-align: left;
+}
+
+.util-textCenter {
+  text-align: center;
+}
+
+.util-alignCenter {
+  justify-content: center;
+  text-align: center;
+}
+
+.util-valignTop {
+  vertical-align: top;
+}
+
+.util-textInfo {
+  color: #333;
+}
+
+.util-textGreen,
+.util-textOk {
+  color: green;
+}
+.util-textUpdated,
+.util-textApply {
+  color: #5390bc;
+}
+
+.util-textYellow,
+.util-textWarning {
+  color: yellow;
+}
+
+.util-textWhite {
+  color: white;
+}
+
+.util-textGrey {
+  color: #666;
+}
+
+.util-textError,
+.util-textRed {
+  color: red;
+}
+
+.util-textBlue {
+  color: blue;
+}
+
+.util-textOrange {
+  color: orange;
+}
+
+.util-hooverable,
+.util-hooverGray {
+  opacity: 0.8;
+  transition: opacity 150ms ease-in;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.util-hooverOp {
+  &:hover {
+    opacity: 1;
+    background-color: #e7e7e750 !important;
+    color: #666;
+    cursor: pointer;
+  }
+}
+
+.util-hooverGray {
+  transition: background-color 150ms ease;
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.util-hintWidget {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.util-fullHeight {
+  height: 100%;
+}
+
+.util-fullWidth {
+  width: 100%;
+}
+
+.util-pointer {
+  cursor: pointer;
+}
+
+.util-hide {
+  visibility: hidden;
+}
+
+.util-show {
+  visibility: visible;
+}
+
+.util-opacity50 {
+  opacity: 0.5;
+}
+
+.util-borderRadiusSm {
+  border-radius: 2px;
+}
+
+.util-borderRadiusMd {
+  border-radius: 4px;
+}
+
+.util-bgGray {
+  background-color: #f5f5f5;
+}
+
+.util-bgWhite {
+  background-color: white;
+}
+
+.util-bgRed {
+  background-color: red;
+}
+
+.util-bgGreen {
+  background-color: green;
+}
+
+.util-bgBlue {
+  background-color: blue;
+}
+
+.util-textSmall {
+  font-size: 0.8em;
+}
+
+.util-textBold {
+  font-weight: bold;
+}
+
+.util-textUnderline {
+  text-decoration: underline;
+}
+
+.util-pointer {
+  cursor: pointer;
+}
+
+.util-overflowInitial {
+  overflow: initial !important;
+}
+
+.util-defaultLink {
+  text-decoration: initial;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.util-flexRowRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.util-flexRowCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.util-flexRowSpaceBetween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.util-flexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.util-overflowAuto {
+  overflow: auto;
+}
+
+.util-overflowYAuto {
+  overflow: auto;
+}
+
+.util-minHeight {
+  min-height: 0;
+}
+
+.util-hooverableContainer {
+  .util-hooverableContent {
+    opacity: 0;
+    transition: visibility 150ms, opacity 150ms;
+    visibility: hidden;
+  }
+
+  &:hover {
+    > .util-hooverableContent {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.util-borderGrey {
+  border: 1px solid #ccc;
+}
+
+.util-horizontalLine {
+  height: 1px;
+  border: none;
+  background-color: #d3d3d3;
+  margin: 10px 0px;
+}
+
+.util-textVerticalAlignCenter {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.util-alignItemCenter {
+  align-items: center;
+}
+
+.util-cursorPointer {
+  cursor: pointer;
+}
